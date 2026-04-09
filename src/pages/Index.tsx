@@ -29,6 +29,9 @@ const Index = () => {
         {/* Revenue Command - full width */}
         <RevenueCommand />
 
+        {/* Fallout Shelter Style Workspace */}
+        <FalloutWorkspace />
+
         {/* Agent Panels - two columns */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
           <AgentPanel
