@@ -1,6 +1,7 @@
 import MissionControlHeader from "@/components/dashboard/MissionControlHeader";
 import RevenueCommand from "@/components/dashboard/RevenueCommand";
 import AgentPanel from "@/components/dashboard/AgentPanel";
+import FalloutWorkspace from "@/components/dashboard/FalloutWorkspace";
 import OrderFeed from "@/components/dashboard/OrderFeed";
 import SystemStatus from "@/components/dashboard/SystemStatus";
 import WorkflowPipeline from "@/components/dashboard/WorkflowPipeline";
