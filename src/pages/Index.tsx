@@ -1,6 +1,7 @@
 import MissionControlHeader from "@/components/dashboard/MissionControlHeader";
 import RevenueCommand from "@/components/dashboard/RevenueCommand";
 import AgentPanel from "@/components/dashboard/AgentPanel";
+import FalloutWorkspace from "@/components/dashboard/FalloutWorkspace";
 import OrderFeed from "@/components/dashboard/OrderFeed";
 import SystemStatus from "@/components/dashboard/SystemStatus";
 import WorkflowPipeline from "@/components/dashboard/WorkflowPipeline";
@@ -27,6 +28,9 @@ const Index = () => {
       <main className="p-4 md:p-6 space-y-4 md:space-y-6 max-w-[1800px] mx-auto">
         {/* Revenue Command - full width */}
         <RevenueCommand />
+
+        {/* Fallout Shelter Style Workspace */}
+        <FalloutWorkspace />
 
         {/* Agent Panels - two columns */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 md:gap-6">
